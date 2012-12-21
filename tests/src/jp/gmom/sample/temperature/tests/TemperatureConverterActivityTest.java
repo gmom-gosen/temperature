@@ -93,9 +93,4 @@ public class TemperatureConverterActivityTest extends ActivityInstrumentationTes
         sendKeys(keyCodes);
     }
 
-    @SmallTest
-    public void testFail() {
-        fail("fail me");
-    }
-
 }

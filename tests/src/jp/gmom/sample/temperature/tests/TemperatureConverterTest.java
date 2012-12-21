@@ -33,8 +33,4 @@ public class TemperatureConverterTest extends TestCase {
         assertEquals(TemperatureConverter.FAHRENHEIT_BOILING_POINT, converted, DELTA);
     }
 
-    @SmallTest
-    public void testFail() {
-        fail("test fail");
-    }
 }
